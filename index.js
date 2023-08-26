@@ -10,7 +10,7 @@
     mm = String(today.getMonth() + 1).padStart(2, "0"),
     yyyy = today.getFullYear(),
     nextYear = yyyy + 1,
-    dayMonth = "08/27/",
+    dayMonth = "08/26/",
     birthday = dayMonth + yyyy;
     today = mm + "/" + dd + "/" + yyyy;
     if (today > birthday) {
@@ -27,7 +27,7 @@
     document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
     //do something later when date is reached
     if (distance < 0) {
-    document.getElementById("headline").innerText = "Hey Doraemon of my life❤,I wanted to share this special moment with you but couldn't since we are far away from each other.I am very bad at writing love letters so bare with me.I wanted to telll you I love you so so much.Although we couldn't spend much time together this month because of this long distancing but we managed to see it through.I love you the way you are and this willl never change.You know whats the best quality that made me fall for you?.You make me feel at home❤.";
+    document.getElementById("headline").innerText = "Hey Doraemon of my life❤,First of all tnaks for being there for me when I needed you the most and sharing with me.Cant belive its been 6 mmonths damnn....time went by too fat from sending a long sentence for approval to pandu to actually proposing and being completely dummp about what to do next.Can you belive we have spent 180 days, 11 hours, 49 minutes and 20 seconds together and successfully we signing off our 5th chapter ♥.I just to want say thank you for accepting my micro second proposal lets stick together and jump every obstacle together ♥ in our way.I love you muaaahahhhhhhh........♥♥♥♥♥♥♥♥♥";
     document.getElementById("countdown").style.display = "none";
     document.getElementById("content").style.display = "block";
     document.getElementById("systum").style.backgroundColor="lightblue";
